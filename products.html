@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+	    <!-- Basic Page Needs
+	    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	    <meta charset="utf-8">
+	    <title>APPLE BERRY-PRODUCTS</title>
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+	    
+		<!-- CSS
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/skeleton.css">
+		<link rel="stylesheet" href="css/sample.css">
+		
+		<!-- Mobile Specific Metas
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Owl Carousel CSS -->
+		<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+		
+		<!-- jQuery -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+				$(document).ready(function(){
+				  $("#menu").click(function(){
+				    $(".sp_menu_toggle").slideToggle();
+				  });
+				});
+		</script>
+		
+		<script>
+				$(window).load(function(){
+				  $("#list_img img").click(function(){
+				    var img_src = $(this).attr("src");
+				    $("#display_img img").attr("src", img_src);
+				  });
+				});
+		</script>
+		
+		<script>
+				$(window).load(function(){
+				  $("#list_img3 img").click(function(){
+				    var img_src = $(this).attr("src");
+				    $("#sp_display_img img").attr("src", img_src);
+				  });
+				});
+		</script>
+		
+		<!-- Owl Carousel JS -->
+		<script src="owlcarousel/owl.carousel.min.js"></script>
+		
+	    <!-- Owl Carouselを動作させるために追加 -->
+		<script src="test-carousel.js"></script>
+		
+		<style>
+			.pc_menu { list-style: none;  text-align: right}
+			.pc_menu li { display: inline-block}
+		</style>
+		
+	</head>
+	
+	<body>
+		<header>
+
+			<div class="container">
+				<div class="row">
+					<div class="two columns logo">
+						<h1><a href="index.html"><img id=apple src="images/top/logo.png" alt="APPLE BERRY" srcset="images/top/logo@2x.png 2x" /></a></h1>
+					</div><!--/.six columns-->
+					
+						<!-- sp
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+					<div class="ten columns">
+		              <div class="sp_menu">
+		                  <img id="sp_menu_btn" class="u-max-full-width" src="images/top_sp/fb.png" alt="facebook" srcset="images/top_sp/fb@2x.png 2x" />
+		                  <img id="sp_menu_btn" class="u-max-full-width" src="images/top_sp/insta.png" alt="instagram" srcset="images/top_sp/insta@2x.png 2x" />
+		                  <img id="menu" class="u-max-full-width" src="images/top_sp/menu_icon.png" alt="ハンバーガーメニュー" srcset="images/top_sp/menu_icon@2x.png 2x" />
+
+							<ul class="sp_menu_toggle">
+							  <li><a href="">ログイン</a></li>
+							  <li><a href="">カート</a></li>
+							  <li><a href="">マイページ</a></li>
+							  <li><a href="">ショッピングガイド</a></li>
+							</ul>
+		                  
+		              </div>
+		                
+						
+		            </div>
+		            	<!-- /sp
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+ 						<!-- pc
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+					<div class="ten columns">
+						<ul class="pc_menu">
+							<li class=pct><a href="index.html"><img src="images/top/menu_login.png" alt="ログイン"></a></li>
+							<li class=pct><a href="index.html"><img src="images/top/menu_cart.png" alt="カート"></a></li>
+							<li class=pct><a href="index.html"><img src="images/top/menu_mypage.png" alt="マイページ"></a></li>
+							<li class=pct><a href="index.html"><img src="images/top/menu_guide.png" alt="ガイド"></a></li>
+							<li class=pcicon><a href="index.html"><img src="images/top_sp/fb.png" alt="facebook" ></a></li>
+							<li class=pcicon><a href="index.html"><img src="images/top_sp/insta.png" alt="instagram" ></a></li>
+						</ul>
+					</div>
+						<!-- /pc
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+					
+				</div><!--/.row-->
+			</div><!--/.container-->
+		</header>
+		
+		
+		
+		
+			<div class="container">
+				<div class="row">
+			    	
+					<div id="main" class="nine columns">
+				     	
+						<div class=pan>
+							<div><img src="images/list/home_icon.png" alt="ホームアイコン">　HOME / カテゴリー名 / 商品名</div>
+				        </div>
+				    </div>
+				</div>
+			</div>
+				        
+				        
+		<!-- sp
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<header id="sp_show">
+			<div class="container">
+				<div class="row">
+					<div class="twelve columns">
+									<div id="sp_show_t" class=clearfix>
+													<div id="sp_shouhin">商品名が入ります</div>
+													<div id="sp_fa">fa0001-91</div>
+									</div>
+									
+									<p class="sen2"></p>
+									
+							        <div id="sp_display_img">
+										<img class="u-full-width" src="https://techacademy.s3.amazonaws.com/bootcamp/webdesign/shopping-site/download/products_img/pro_img_01.jpg" alt="スライドショー大">
+									</div>
+										
+										<ul id="list_img3">
+											<div class="sp_cover">
+										   				<div class="box2">
+															  <li><img  class="u-full-width" src="images/products/pro_img_01.jpg" alt="スライドショー小"></li>
+														</div>
+														<div class="box2">
+															  <li><img  class="u-full-width" src="images/products/pro_img_02.jpg" alt="スライドショー小"></li>
+														</div>
+														<div class="box2">
+															  <li><img  class="u-full-width" src="images/products/pro_img_03.jpg" alt="スライドショー小"></li>
+														</div>
+														<div class="box2">
+															  <li><img  class="u-full-width" src="images/products/pro_img_04.jpg" alt="スライドショー小"></li>
+														</div>
+														<div class="box2">
+															  <li><img  class="u-full-width" src="images/products/pro_img_05.jpg" alt="スライドショー小"></li>
+														</div>
+											</div>
+											<div class="sp_cover">
+														<div class="box2">
+															<li><img  class="u-full-width" src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+														</div>
+														<div class="box2">
+															<li><img  class="u-full-width" src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+														</div>
+														<div class="box2">
+															<li><img  class="u-full-width" src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+														</div>
+														<div class="box2">
+															<li><img  class="u-full-width" src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+														</div>
+														<div class="box2">
+															<li><img  class="u-full-width" src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+														</div>
+											</div>
+											
+										</ul>
+										
+														<p class="sen2"></p>
+							
+														<div>
+															<img src="images/products/title_color.png" alt="カラー・サイズ">
+														</div>
+														
+														
+														<table class="type01">
+														    <tr>
+														        <th scope="row"></th>
+														        <th scope="row">カラー１</th>
+														        <th scope="row">カラー１</th>
+														    </tr>
+														    <tr>
+														        <th scope="row">サイズ</th>
+														        <td>
+														        	<div id=sikaku></div>
+														        </td>
+														        <td>
+														        	<div id=sikaku></div>
+														        </td>
+														    </tr>
+														</table>
+														<div id=pr class=clearfix>
+															<div id=sp_price class=clearfix>
+																<p class="sen2"></p>
+																	
+																<img id=pri src="images/products/title_price.png" alt="プライス">
+							
+																<i><font><font color="#e80f66">¥<font size=5 >1,000</font></font> (tax in)</font></i>
+							
+																<p class="sen2"></p>
+															
+																
+																<img id=qu src="images/products/title_quantity.png" alt="クオンティティ">
+																
+																<div id=sikaku2>
+																	<div id=sikaku3></div>
+																</div>
+							
+																<p class="sen2"></p>
+															</div>
+															
+															<div id=sp_addcart>
+																<img class="u-max-full-width" src="images/products/add_to_cart.png" alt="カートに入れる">
+															</div>
+														</div>
+														
+														
+														
+														<div class=setumei>商品説明</div>
+														
+														<p class="sen4"></p>
+														
+														<div class=text_g1>■説明タイトル説明タイトル説明タイトル説明タイトル</div>
+														
+														<div class=text_g3>説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明
+														テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキ
+														スト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト</div>
+														
+														<table class="type02">
+														    <tr>
+														        <th scope="row">カラー</th>
+														        <td>説明文が入ります説明文が入ります説明文が入ります</td>
+														    </tr>
+														    <tr>
+														    	<th scope="row">サイズ</th>
+														        <td>説明文が入ります説明文が入ります説明文が入ります</td>
+														    </tr>
+														</table>
+					</div>
+				</div>
+			</div>
+		</header>
+				        
+				        <!-- pc
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  <div class="container">
+				<div class="row">
+			    	
+					<div id="main" class="nine columns">
+						
+						<div id="pc_show" class=clearfix>
+							<div id="show_t" class=clearfix>
+								<div id="shouhin">商品名が入ります</div>
+								<div id="fa">fa0001-91</div>
+							</div>
+							
+							<p class="sen2"></p>
+							
+					        <div id="display_img">
+								<img class="u-full-width" src="https://techacademy.s3.amazonaws.com/bootcamp/webdesign/shopping-site/download/products_img/pro_img_01.jpg" alt="スライドショー大">
+							</div>
+								
+								<ul id="list_img">
+								  <li><img id=list_img2 src="images/products/pro_img_01.jpg" alt="スライドショー小"></li>
+								  <li><img id=list_img2 src="images/products/pro_img_02.jpg" alt="スライドショー小"></li>
+								  <li><img id=list_img2 src="images/products/pro_img_03.jpg" alt="スライドショー小"></li>
+								  <li><img id=list_img2 src="images/products/pro_img_04.jpg" alt="スライドショー小"></li>
+								  <li><img id=list_img2 src="images/products/pro_img_05.jpg" alt="スライドショー小"></li>
+								  <li><img id=list_img2 src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+								  <li><img id=list_img2 src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+								  <li><img id=list_img2 src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+								  <li><img id=list_img2 src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+								  <li><img id=list_img2 src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+								</ul>
+								
+							<p class="sen2"></p>
+							
+							<div>
+								<img src="images/products/title_color.png" alt="カラー・サイズ">
+							</div>
+							
+							
+							<table class="type01">
+							    <tr>
+							        <th scope="row"></th>
+							        <th scope="row">カラー１</th>
+							        <th scope="row">カラー１</th>
+							    </tr>
+							    <tr>
+							        <th scope="row">サイズ</th>
+							        <td>
+							        	<div id=sikaku></div>
+							        </td>
+							        <td>
+							        	<div id=sikaku></div>
+							        </td>
+							    </tr>
+							</table>
+							<div id=pr class=clearfix>
+								<div id=price >
+									<p class="sen3"></p>
+										
+									<img id=pri src="images/products/title_price.png" alt="プライス">
+
+									<i><font><font color="#e80f66">¥<font size=5 >1,000</font></font> (tax in)</font></i>
+
+									<p class="sen3"></p>
+								
+									
+									<img id=qu src="images/products/title_quantity.png" alt="クオンティティ">
+									
+									<div id=sikaku2>
+										<div id=sikaku3></div>
+									</div>
+
+									
+								</div>
+								
+								<div id=addcart>
+									<img class="u-max-full-width" src="images/products/add_to_cart.png" alt="カートに入れる">
+								</div>
+							</div>
+							
+							<p class="sen2"></p>
+							
+							<div class=setumei>商品説明</div>
+							
+							<p class="sen4"></p>
+							
+							<div class=text_g1>■説明タイトル説明タイトル説明タイトル説明タイトル</div>
+							
+							<div class=text_g3>説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明
+							テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキ
+							スト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト</div>
+							
+							<table class="type02">
+							    <tr>
+							        <th scope="row">カラー</th>
+							        <td>説明文が入ります説明文が入ります説明文が入ります</td>
+							    </tr>
+							    <tr>
+							    	<th scope="row">サイズ</th>
+							        <td>説明文が入ります説明文が入ります説明文が入ります</td>
+							    </tr>
+							</table>
+							
+							
+						</div>
+				        
+				        <div class="pc_itembar">
+				        	<img class="u-full-width" src="images/list/recent_pro_pc.png" alt="最近見た商品">
+				        </div>
+				        
+				        
+				        <div class="pc_cover">
+						   <div class="box">
+						      <div class="items">
+					        	<a href="index.html"><img class="u-full-width" src="images/top/item_07.jpg" alt="アイテム7"></a>
+					        	<div class=text_i>商品名が入ります商品名が入ります商品名が入ります</div>
+					        	<div class=text_i>¥10,000 (tax in)</div>
+					        </div>
+						   </div>
+						   <div class="box">
+						      <div class="items">
+					        	<a href="index.html"><img class="u-full-width" src="images/top/item_08.jpg" alt="アイテム8"></a>
+					        	<div class=text_i>商品名が入ります商品名が入ります商品名が入ります</div>
+					        	<div class=text_i>¥10,000 (tax in)</div>
+					        </div>
+						   </div>
+						   <div class="box">
+						      <div class="items">
+					        	<a href="index.html"><img class="u-full-width" src="images/top/item_09.jpg" alt="アイテム9"></a>
+					        	<div class=text_i>商品名が入ります商品名が入ります商品名が入ります</div>
+					        	<div class=text_i>¥10,000 (tax in)</div>
+					        </div>
+						   </div>
+						</div>
+						
+						
+						
+						
+						
+						
+						<div class="pc_itembar">
+				        	<img class="u-full-width" src="images/top/title_guide.png" alt="ショッピングガイド">
+				        </div>
+				        
+				        <div id="pc_wrap">
+						    <div class="guide">
+						    	<div class=text_g1>お届けについて</div>
+					        	<img id=guide_i class="u-max-full-width" src="images/top/otodoke_banner.png" alt="お届け">
+					        	<div class=text_g2>■◯◯運輸</div>
+					        	<div class=text_i>送料 ¥000 円</div>
+					        	<div class=text_g2>■ゆうパケット</div>
+					        	<div class=text_i>ポスト投函となります。日時指定不可</div>
+					        </div>
+					        
+					        <div class="guide">
+						    	<div class=text_g1>決済について</div>
+					        	<img id=guide_i class="u-max-full-width" src="images/top/cards.png" alt="カード">
+					        	<div class=text_g2>■代金引換</div>
+					        	<div class=text_i>代引き手数料が別途かかります</div>
+					        	<div class=text_g2>■ゆうパケット</div>
+					        	<div class=text_i>お振込手数料お客様負担。<br>
+												  ご入金後の発送となります。</div>
+					        </div>
+				        </div>
+				        
+				        
+					</div>
+				
+					<!-- /pc
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  
+  
+				        
+				        
+				        
+				        
+					    
+					    
+				        
+				        <div class="sp_itembar">
+				        	<img class="u-max-full-width" src="images/list/title_recent_pro.png" alt="最近見た商品" srcset="images/list/title_recent_pro@2x.png 2x" />
+				        </div>
+				        
+				        <div class="sp_cover">
+						   <div class="box">
+						      <div class="items">
+					        	<a href="index.html"><img class="u-full-width" src="images/top/item_07.jpg" alt="アイテム7"></a>
+					        	<div class=text_i>商品名が入ります商品名が入ります商品名が入ります</div>
+					        	<div class=text_i>¥10,000 (tax in)</div>
+					          </div>
+						   </div>
+						   <div class="box">
+						      <div class="items">
+					        	<a href="index.html"><img class="u-full-width" src="images/top/item_08.jpg" alt="アイテム8"></a>
+					        	<div class=text_i>商品名が入ります商品名が入ります商品名が入ります</div>
+					        	<div class=text_i>¥10,000 (tax in)</div>
+					          </div>
+						   </div>
+						</div>
+						
+						<div class="sp_cover">
+						   <div class="box">
+						      <div class="items">
+					        	<a href="index.html"><img class="u-full-width" src="images/top/item_09.jpg" alt="アイテム9"></a>
+					        	<div class=text_i>商品名が入ります商品名が入ります商品名が入ります</div>
+					        	<div class=text_i>¥10,000 (tax in)</div>
+					          </div>
+						   </div>
+						   <div class="box">
+						      <div class="itemsblank">
+					          </div>
+						   </div>
+						</div>
+				        
+				        
+				        
+				        <div class="sp_itembar">
+				        	<img class="u-max-full-width" src="images/top_sp/title_guide.png" alt="ショッピングガイド" srcset="images/top_sp/title_guide@2x.png 2x" />
+				        </div>
+				        
+				        <div id="sp_guide">
+						    <div class="guide">
+						    	<div class=text_g1>お届けについて</div>
+					        	<img class="u-max-full-width" src="images/top/otodoke_banner.png" alt="お届け">
+					        	<div class=text_g2>■◯◯運輸</div>
+					        	<div class=text_i>送料 ¥000 円</div>
+					        	<div class=text_g2>■ゆうパケット</div>
+					        	<div class=text_i>ポスト投函となります。日時指定不可</div>
+					        </div>
+					    
+					    
+					    
+					        <div class="guide">
+						    	<div class=text_g1>決済について</div>
+					        	<img class="u-max-full-width" src="images/top/cards.png" alt="カード">
+					        	<div class=text_g2>■代金引換</div>
+					        	<div class=text_i>代引き手数料が別途かかります</div>
+					        	<div class=text_g2>■ゆうパケット</div>
+					        	<div class=text_i>お振込手数料お客様負担。<br>
+												  ご入金後の発送となります。</div>
+					        </div>
+					    </div>
+				        
+				        <!-- /sp
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  
+  
+  
+  
+  
+  
+				        
+					
+					<div id="sidebar" class="three columns">
+						<div class=sb>
+						
+							<div id=itemserch>
+								<img src="images/top/itemserch.png" alt="アイテムサーチ">
+							</div>
+							
+								
+									<form id="search">
+											<div class=searchbox>
+												<input id="searchInput"  placeholder="Search..." type="text" >
+													<div class="searchicon">
+														<img src="images/top/search_icon.png" alt="アイテムサーチアイコン">
+													</div>
+												<input class="button-primary" style="display:none;" value="Submit" type="submit">
+											</div>
+									</form>
+						</div>
+						
+						<div id=sidebar_li>
+							<div class=pagelinks>ページリンク
+									<div class=nexticon>
+										<img src="images/top/next_icon.png" alt="ネクストアイコン">
+									</div>
+							</div>
+						</div>
+						
+						<div id=sidebar_li>
+							<div class=pagelinks>
+								<img src="images/top/categories.png" alt="カテゴリー">
+									<div class=downicon>
+										<img src="images/top/down_icon.png" alt="ダウンアイコン">
+									</div>
+							</div>
+						</div>
+						
+						<div id=categories_li>
+							<div class=categories>カテゴリー名
+									<div class=nexticon>
+										<img src="images/top/next_icon_gray.png" alt="ネクストアイコン">
+									</div>
+							</div>
+						</div>
+						
+						<div id=categories_li>
+							<div class=categories>カテゴリー名
+									<div class=nexticon>
+										<img src="images/top/next_icon_gray.png" alt="ネクストアイコン">
+									</div>
+							</div>
+						</div>
+						
+						<div id=categories_li>
+							<div class=categories>カテゴリー名
+									<div class=nexticon>
+										<img src="images/top/next_icon_gray.png" alt="ネクストアイコン">
+									</div>
+							</div>
+						</div>
+						
+						<div id=categories_li>
+							<div class=categories>カテゴリー名
+									<div class=nexticon>
+										<img src="images/top/next_icon_gray.png" alt="ネクストアイコン">
+									</div>
+							</div>
+						</div>
+						
+						<div id=categories_li>
+							<div class=categories>カテゴリー名
+									<div class=nexticon>
+										<img src="images/top/next_icon_gray.png" alt="ネクストアイコン">
+									</div>
+							</div>
+						</div>
+						
+						<div id=categories_li>
+							<div class=categories>カテゴリー名
+									<div class=nexticon>
+										<img src="images/top/next_icon_gray.png" alt="ネクストアイコン">
+									</div>
+							</div>
+						</div>
+						
+						<div id=sidebar_li>
+							<div class=pagelinks>
+								<img src="images/top/about.png" alt="アバウト">
+							</div>
+						</div>
+						
+						<div id=about_li class="clearfix">
+							<div>
+								<img id="side_img" class="u-max-full-width" src="images/top/about_img.jpg" alt="アバウトイメージ">
+							</div>
+							
+							<div class=text>お店の説明お店の説明お店の説明がはいりますお店の説明お店の説明お店の説明</div>
+							<div class=more>
+								<img id="more_btn" src="images/top/more_btn.png" alt="モア">
+							</div>
+						</div>
+						
+						<div id=sidebar_li>
+							<div class=pagelinks>
+								<img src="images/top/shop_info.png" alt="ショップインフォ">
+							</div>
+						</div>
+					
+						<div id=about_li class="clearfix">
+							<div>
+								<img id="side_img" class="u-max-full-width" src="images/top/shopinfo_img.jpg" alt="ショップインフォイメージ">
+							</div>
+							
+							<div class=text>お店の説明お店の説明お店の説明がはいりますお店の説明お店の説明お店の説明</div>
+							<div class=more>
+								<img id="more_btn" src="images/top/more_btn.png" alt="モア">
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+		<footer>
+			<div class="container">
+				<div id=pagetop><img src="images/top/pagetop.png" alt="ページトップ"></div>
+				<div class="row" >
+					<p class="sen"></p>
+					<div class="twelve columns">
+				     	
+						<div class="sp_text_f">特定商取引に基づく表記　・　プライバシーポリシー　・　マイページ</div>
+				        
+					</div>
+					
+					<div class="twelve columns">
+				     	
+						<div class="pc_text_f">特定商取引に基づく表記　・　プライバシーポリシー　・　マイページ</div>
+				        
+					</div>
+					
+					<div class="twelve columns">
+				     	
+						<div class="sp_text_f2">copyright (C) APPLE BERRY all rights reserved.</div>
+				        
+					</div>
+					
+					<div class="twelve columns">
+				     	
+						<div class="pc_text_f2">copyright (C) APPLE BERRY all rights reserved.</div>
+				        
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</body>
+</html>
