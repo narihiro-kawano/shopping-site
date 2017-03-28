@@ -266,6 +266,10 @@ body {
     cursor: pointer;
     }
     
+    .sp_menu_toggle{
+    display: none;
+    }
+    
     .sp_menu_toggle li{
     margin-bottom: 1px;
     padding: 15px;
@@ -718,6 +722,10 @@ body {
     @media (min-width: 720px) {
         
     #sp_show{
+    display: none;
+    }
+    
+    .sp_container{
     display: none;
     }
     
