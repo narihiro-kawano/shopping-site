@@ -76,8 +76,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 					<div class="ten columns">
 		              <div class="sp_menu">
-		                  <img id="sp_menu_btn" class="u-max-full-width" src="images/top_sp/fb.png" alt="facebook" srcset="images/top_sp/fb@2x.png 2x" />
-		                  <img id="sp_menu_btn" class="u-max-full-width" src="images/top_sp/insta.png" alt="instagram" srcset="images/top_sp/insta@2x.png 2x" />
+		                  <img class="sp_menu_btn u-max-full-width" src="images/top_sp/fb.png" alt="facebook" srcset="images/top_sp/fb@2x.png 2x" />
+		                  <img class="sp_menu_btn u-max-full-width" src="images/top_sp/insta.png" alt="instagram" srcset="images/top_sp/insta@2x.png 2x" />
 		                  <img id="menu" class="u-max-full-width" src="images/top_sp/menu_icon.png" alt="ハンバーガーメニュー" srcset="images/top_sp/menu_icon@2x.png 2x" />
 
 							<ul class="sp_menu_toggle">
@@ -118,7 +118,7 @@
 			<div class="container">
 				<div class="row">
 			    	
-					<div id="main" class="nine columns">
+					<div class="main nine columns">
 				     	
 						<div class=pan>
 							<div><img src="images/list/home_icon.png" alt="ホームアイコン">　HOME / カテゴリー名 / 商品名</div>
@@ -145,43 +145,43 @@
 										<img class="u-full-width" src="https://techacademy.s3.amazonaws.com/bootcamp/webdesign/shopping-site/download/products_img/pro_img_01.jpg" alt="スライドショー大">
 									</div>
 										
-										<ul id="list_img3">
+										<div id="list_img3">
 											<div class="sp_cover">
 										   				<div class="box2">
-															  <li><img  class="u-full-width" src="images/products/pro_img_01.jpg" alt="スライドショー小"></li>
+															  <div><img  class="u-full-width" src="images/products/pro_img_01.jpg" alt="スライドショー小"></div>
 														</div>
 														<div class="box2">
-															  <li><img  class="u-full-width" src="images/products/pro_img_02.jpg" alt="スライドショー小"></li>
+															  <div><img  class="u-full-width" src="images/products/pro_img_02.jpg" alt="スライドショー小"></div>
 														</div>
 														<div class="box2">
-															  <li><img  class="u-full-width" src="images/products/pro_img_03.jpg" alt="スライドショー小"></li>
+															  <div><img  class="u-full-width" src="images/products/pro_img_03.jpg" alt="スライドショー小"></div>
 														</div>
 														<div class="box2">
-															  <li><img  class="u-full-width" src="images/products/pro_img_04.jpg" alt="スライドショー小"></li>
+															  <div><img  class="u-full-width" src="images/products/pro_img_04.jpg" alt="スライドショー小"></div>
 														</div>
 														<div class="box2">
-															  <li><img  class="u-full-width" src="images/products/pro_img_05.jpg" alt="スライドショー小"></li>
+															  <div><img  class="u-full-width" src="images/products/pro_img_05.jpg" alt="スライドショー小"></div>
 														</div>
 											</div>
 											<div class="sp_cover">
 														<div class="box2">
-															<li><img  class="u-full-width" src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+															<div><img  class="u-full-width" src="images/products/gray_pro_img.jpg" alt="スライドショー小"></div>
 														</div>
 														<div class="box2">
-															<li><img  class="u-full-width" src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+															<div><img  class="u-full-width" src="images/products/gray_pro_img.jpg" alt="スライドショー小"></div>
 														</div>
 														<div class="box2">
-															<li><img  class="u-full-width" src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+															<div><img  class="u-full-width" src="images/products/gray_pro_img.jpg" alt="スライドショー小"></div>
 														</div>
 														<div class="box2">
-															<li><img  class="u-full-width" src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+															<div><img  class="u-full-width" src="images/products/gray_pro_img.jpg" alt="スライドショー小"></div>
 														</div>
 														<div class="box2">
-															<li><img  class="u-full-width" src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+															<div><img  class="u-full-width" src="images/products/gray_pro_img.jpg" alt="スライドショー小"></div>
 														</div>
 											</div>
 											
-										</ul>
+										</div>
 										
 														<p class="sen2"></p>
 							
@@ -199,28 +199,31 @@
 														    <tr>
 														        <th scope="row">サイズ</th>
 														        <td>
-														        	<div id=sikaku></div>
+														        	<div class=sikaku></div>
 														        </td>
 														        <td>
-														        	<div id=sikaku></div>
+														        	<div class=sikaku></div>
 														        </td>
 														    </tr>
 														</table>
-														<div id=pr class=clearfix>
+														<div class="pr clearfix">
 															<div id=sp_price class=clearfix>
 																<p class="sen2"></p>
 																	
-																<img id=pri src="images/products/title_price.png" alt="プライス">
+																<img class=pri src="images/products/title_price.png" alt="プライス">
 							
-																<i><font><font color="#e80f66">¥<font size=5 >1,000</font></font> (tax in)</font></i>
+							
+																<i><span class="yen">￥</span><span class="thou">1,000</span><span class="tax">（tax in）</span></i>
+																
+																
 							
 																<p class="sen2"></p>
 															
 																
-																<img id=qu src="images/products/title_quantity.png" alt="クオンティティ">
+																<img class=qu src="images/products/title_quantity.png" alt="クオンティティ">
 																
-																<div id=sikaku2>
-																	<div id=sikaku3></div>
+																<div class=sikaku2>
+																	<div class=sikaku3></div>
 																</div>
 							
 																<p class="sen2"></p>
@@ -264,7 +267,7 @@
   <div class="container">
 				<div class="row">
 			    	
-					<div id="main" class="nine columns">
+					<div class="main nine columns">
 						
 						<div id="pc_show" class=clearfix>
 							<div id="show_t" class=clearfix>
@@ -279,16 +282,16 @@
 							</div>
 								
 								<ul id="list_img">
-								  <li><img id=list_img2 src="images/products/pro_img_01.jpg" alt="スライドショー小"></li>
-								  <li><img id=list_img2 src="images/products/pro_img_02.jpg" alt="スライドショー小"></li>
-								  <li><img id=list_img2 src="images/products/pro_img_03.jpg" alt="スライドショー小"></li>
-								  <li><img id=list_img2 src="images/products/pro_img_04.jpg" alt="スライドショー小"></li>
-								  <li><img id=list_img2 src="images/products/pro_img_05.jpg" alt="スライドショー小"></li>
-								  <li><img id=list_img2 src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
-								  <li><img id=list_img2 src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
-								  <li><img id=list_img2 src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
-								  <li><img id=list_img2 src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
-								  <li><img id=list_img2 src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+								  <li><img class=list_img2 src="images/products/pro_img_01.jpg" alt="スライドショー小"></li>
+								  <li><img class=list_img2 src="images/products/pro_img_02.jpg" alt="スライドショー小"></li>
+								  <li><img class=list_img2 src="images/products/pro_img_03.jpg" alt="スライドショー小"></li>
+								  <li><img class=list_img2 src="images/products/pro_img_04.jpg" alt="スライドショー小"></li>
+								  <li><img class=list_img2 src="images/products/pro_img_05.jpg" alt="スライドショー小"></li>
+								  <li><img class=list_img2 src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+								  <li><img class=list_img2 src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+								  <li><img class=list_img2 src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+								  <li><img class=list_img2 src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
+								  <li><img class=list_img2 src="images/products/gray_pro_img.jpg" alt="スライドショー小"></li>
 								</ul>
 								
 							<p class="sen2"></p>
@@ -307,28 +310,28 @@
 							    <tr>
 							        <th scope="row">サイズ</th>
 							        <td>
-							        	<div id=sikaku></div>
+							        	<div class=sikaku></div>
 							        </td>
 							        <td>
-							        	<div id=sikaku></div>
+							        	<div class=sikaku></div>
 							        </td>
 							    </tr>
 							</table>
-							<div id=pr class=clearfix>
+							<div class="pr clearfix">
 								<div id=price >
 									<p class="sen3"></p>
 										
-									<img id=pri src="images/products/title_price.png" alt="プライス">
+									<img class=pri src="images/products/title_price.png" alt="プライス">
 
-									<i><font><font color="#e80f66">¥<font size=5 >1,000</font></font> (tax in)</font></i>
+									<i><span class="yen">￥</span><span class="thou">1,000</span><span class="tax">（tax in）</span></i>
 
 									<p class="sen3"></p>
 								
 									
-									<img id=qu src="images/products/title_quantity.png" alt="クオンティティ">
+									<img class=qu src="images/products/title_quantity.png" alt="クオンティティ">
 									
-									<div id=sikaku2>
-										<div id=sikaku3></div>
+									<div class=sikaku2>
+										<div class=sikaku3></div>
 									</div>
 
 									
@@ -406,7 +409,7 @@
 				        <div id="pc_wrap">
 						    <div class="guide">
 						    	<div class=text_g1>お届けについて</div>
-					        	<img id=guide_i class="u-max-full-width" src="images/top/otodoke_banner.png" alt="お届け">
+					        	<img class="guide_i u-max-full-width" src="images/top/otodoke_banner.png" alt="お届け">
 					        	<div class=text_g2>■◯◯運輸</div>
 					        	<div class=text_i>送料 ¥000 円</div>
 					        	<div class=text_g2>■ゆうパケット</div>
@@ -415,7 +418,7 @@
 					        
 					        <div class="guide">
 						    	<div class=text_g1>決済について</div>
-					        	<img id=guide_i class="u-max-full-width" src="images/top/cards.png" alt="カード">
+					        	<img class="guide_i u-max-full-width" src="images/top/cards.png" alt="カード">
 					        	<div class=text_g2>■代金引換</div>
 					        	<div class=text_i>代引き手数料が別途かかります</div>
 					        	<div class=text_g2>■ゆうパケット</div>
@@ -533,7 +536,7 @@
 									</form>
 						</div>
 						
-						<div id=sidebar_li>
+						<div class=sidebar_li>
 							<div class=pagelinks>ページリンク
 									<div class=nexticon>
 										<img src="images/top/next_icon.png" alt="ネクストアイコン">
@@ -541,7 +544,7 @@
 							</div>
 						</div>
 						
-						<div id=sidebar_li>
+						<div class=sidebar_li>
 							<div class=pagelinks>
 								<img src="images/top/categories.png" alt="カテゴリー">
 									<div class=downicon>
@@ -550,7 +553,7 @@
 							</div>
 						</div>
 						
-						<div id=categories_li>
+						<div class=categories_li>
 							<div class=categories>カテゴリー名
 									<div class=nexticon>
 										<img src="images/top/next_icon_gray.png" alt="ネクストアイコン">
@@ -558,7 +561,7 @@
 							</div>
 						</div>
 						
-						<div id=categories_li>
+						<div class=categories_li>
 							<div class=categories>カテゴリー名
 									<div class=nexticon>
 										<img src="images/top/next_icon_gray.png" alt="ネクストアイコン">
@@ -566,7 +569,7 @@
 							</div>
 						</div>
 						
-						<div id=categories_li>
+						<div class=categories_li>
 							<div class=categories>カテゴリー名
 									<div class=nexticon>
 										<img src="images/top/next_icon_gray.png" alt="ネクストアイコン">
@@ -574,7 +577,7 @@
 							</div>
 						</div>
 						
-						<div id=categories_li>
+						<div class=categories_li>
 							<div class=categories>カテゴリー名
 									<div class=nexticon>
 										<img src="images/top/next_icon_gray.png" alt="ネクストアイコン">
@@ -582,7 +585,7 @@
 							</div>
 						</div>
 						
-						<div id=categories_li>
+						<div class=categories_li>
 							<div class=categories>カテゴリー名
 									<div class=nexticon>
 										<img src="images/top/next_icon_gray.png" alt="ネクストアイコン">
@@ -590,7 +593,7 @@
 							</div>
 						</div>
 						
-						<div id=categories_li>
+						<div class=categories_li>
 							<div class=categories>カテゴリー名
 									<div class=nexticon>
 										<img src="images/top/next_icon_gray.png" alt="ネクストアイコン">
@@ -598,37 +601,37 @@
 							</div>
 						</div>
 						
-						<div id=sidebar_li>
+						<div class=sidebar_li>
 							<div class=pagelinks>
 								<img src="images/top/about.png" alt="アバウト">
 							</div>
 						</div>
 						
-						<div id=about_li class="clearfix">
+						<div class="about_li clearfix">
 							<div>
-								<img id="side_img" class="u-max-full-width" src="images/top/about_img.jpg" alt="アバウトイメージ">
+								<img class="side_img u-max-full-width" src="images/top/about_img.jpg" alt="アバウトイメージ">
 							</div>
 							
 							<div class=text>お店の説明お店の説明お店の説明がはいりますお店の説明お店の説明お店の説明</div>
 							<div class=more>
-								<img id="more_btn" src="images/top/more_btn.png" alt="モア">
+								<img class="more_btn" src="images/top/more_btn.png" alt="モア">
 							</div>
 						</div>
 						
-						<div id=sidebar_li>
+						<div class=sidebar_li>
 							<div class=pagelinks>
 								<img src="images/top/shop_info.png" alt="ショップインフォ">
 							</div>
 						</div>
 					
-						<div id=about_li class="clearfix">
+						<div class="about_li clearfix">
 							<div>
-								<img id="side_img" class="u-max-full-width" src="images/top/shopinfo_img.jpg" alt="ショップインフォイメージ">
+								<img class="side_img u-max-full-width" src="images/top/shopinfo_img.jpg" alt="ショップインフォイメージ">
 							</div>
 							
 							<div class=text>お店の説明お店の説明お店の説明がはいりますお店の説明お店の説明お店の説明</div>
 							<div class=more>
-								<img id="more_btn" src="images/top/more_btn.png" alt="モア">
+								<img class="more_btn" src="images/top/more_btn.png" alt="モア">
 							</div>
 						</div>
 						

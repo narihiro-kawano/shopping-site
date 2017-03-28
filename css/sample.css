@@ -59,7 +59,7 @@ body {
     padding-bottom: 20px;
     }
     
-    #side_img{
+    .side_img{
     padding-top: 12px;
     padding-right: 12px;
     padding-left: 12px;
@@ -195,7 +195,7 @@ body {
     padding-bottom: 12px;
     }
 
-    #side_img{
+    .side_img{
     width: 50%;
     float: left;
     padding-top: 12px;
@@ -204,7 +204,7 @@ body {
     padding-bottom: 30px;
     }
     
-    #more_btn{
+    .more_btn{
     padding-left:10px;
     }
     
@@ -254,7 +254,7 @@ body {
     text-align: center;
     }
     
-    #sp_menu_btn{
+    .sp_menu_btn{
     margin-right: 3px;
     margin-left: 3px;
     cursor: pointer;
@@ -349,7 +349,7 @@ body {
     margin-bottom: 10px;
     }
     
-    #sidebar_li{
+    .sidebar_li{
     height: 45px;
     background-color:#887f69;
     margin-top: 10px;
@@ -378,7 +378,7 @@ body {
     padding-right: 10px;
     }
     
-    #categories_li{
+    .categories_li{
     height: 45px;
     background-color:#ffffff;
     margin-top: 1px;
@@ -391,7 +391,7 @@ body {
     padding-left: 15px;
     }
     
-    #about_li{
+    .about_li{
     background-color:#ffffff;
     margin-top: 1px;
     }
@@ -431,7 +431,7 @@ body {
     margin-right: 2px;
     }
     
-    #guide_i{
+    .guide_i{
     margin-bottom: 5px;
     }
     
@@ -527,8 +527,15 @@ body {
     
      /* products
    ========================================================================== */
- 
+    .yen{
+        color: #e80f66;
+    }
     
+    .thou{
+        color: #e80f66;
+        font-size: 22px;
+    }
+ 
     table.type01 {
         border-collapse: collapse;
         text-align: left;
@@ -557,7 +564,7 @@ body {
         text-align: center;
     }
     
-    #sikaku{
+    .sikaku{
         width: 15px;
         height: 15px;
         border: 1px solid #e8e4da;
@@ -610,7 +617,7 @@ body {
     float: right;
     }
     
-    #list_img2{
+    .list_img2{
     width: 75px;
     height: 75px;
     }
@@ -638,22 +645,22 @@ body {
     text-align: right;
     }
     
-    #sikaku2{
+    .sikaku2{
     width: 50%;
     height: 38px;
     margin-left: 120px;
     }
     
-    #sikaku3{
+    .sikaku3{
     height: 38px;
     border: 1px solid #e8e4da;
     }
     
-    #pri{
+    .pri{
     margin-right: 70px;
     }
     
-    #qu{
+    .qu{
     float: left;
     margin-top: 10px;
     margin-right: 50px;
@@ -737,7 +744,7 @@ body {
     color: #a6a6a6;
     }
     
-    #list_img3 li {
+    #list_img3 div {
     list-style: none;
     margin-right: 4px;
     margin-left: 4px;
